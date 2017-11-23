@@ -17,7 +17,7 @@ gem 'devise', '~> 4.3'
 gem 'paperclip', '~> 5.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
-
+gem 'searchkick', '~> 2.4'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
