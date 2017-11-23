@@ -1,5 +1,16 @@
-<h1>New Review</h1>
+<div class="col-md-6 col-md-offset-3">
+	<div class="row">
+		<div>
+			<div class="text-left">
+				<h1>New Review</h1>
+			</div>
+			<div>
+				<%= render 'form' %>
+			</div>
 
-<%= render 'form' %>
-
-<%= link_to 'Back', movie_path(@movie) %>
+			<div class="footer">
+				<%= link_to 'Back', movie_path(@movie) %>
+			</div>
+		</div>
+	</div>
+</div>
